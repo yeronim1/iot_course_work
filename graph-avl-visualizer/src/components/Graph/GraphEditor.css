@@ -1,0 +1,74 @@
+.graph-editor {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.graph-controls {
+    margin-bottom: 20px;
+}
+
+.graph-controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.graph-controls-bfs button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #ef0c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.graph-controls button:hover {
+    background-color: #0056b3;
+}
+
+.graph-controls-bfs button:hover {
+    background-color: #d51b1b;
+}
+
+.graph-visualizer-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle:hover {
+    fill: orange;
+    cursor: pointer;
+}
+
+.labels text {
+    font-family: Arial, sans-serif;
+    fill: black;
+}
